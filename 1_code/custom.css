@@ -1,0 +1,90 @@
+.text-align-center{ text-align:center;color:#ffffff;font-weight:bold; }
+.f-w-b{ font-weight:bold;color:#ffffff; }
+.display-none{ display:none; color:#ffffff;}
+	
+.w-5-pct{ width:5%; color:#ffffff;}
+.w-10-pct{ width:10%;color:#ffffff; }
+.w-15-pct{ width:15%; color:#ffffff;}
+.w-20-pct{ width:20%; color:#ffffff;}
+.w-25-pct{ width:25%; color:#ffffff;}
+.w-30-pct{ width:30%; color:#ffffff;}
+.w-35-pct{ width:35%; color:#ffffff;}
+.w-40-pct{ width:40%;color:#ffffff; }
+.w-45-pct{ width:45%; color:#ffffff;}
+.w-50-pct{ width:50%; color:#ffffff;}
+.w-55-pct{ width:55%; color:#ffffff;}
+.w-60-pct{ width:60%; color:#ffffff;}
+.w-65-pct{ width:65%; color:#ffffff;}
+.w-70-pct{ width:70%; color:#ffffff;}
+.w-75-pct{ width:75%;color:#ffffff; }
+.w-80-pct{ width:80%; color:#ffffff;}
+.w-85-pct{ width:85%; color:#ffffff;}
+.w-90-pct{ width:90%; color:#ffffff;}
+.w-95-pct{ width:95%; color:#ffffff;}
+.w-100-pct{ width:300px; height:300px; color:#ffffff;}
+.w-120-pct{ width:120%; color:#ffffff;}
+ 
+.m-t-0px{ margin-top:0px; font-weight:bold; color:#ffffff;}
+.m-b-10px{ margin-bottom:10px; color:#ffffff; }
+.m-b-20px{ margin-bottom:20px; color:#ffffff; }
+.m-b-30px{ margin-bottom:30px;color:#ffffff; }
+.m-b-40px{ margin-bottom:40px; color:#ffffff; }
+
+html { 
+    background: url(pexels-photo-326279 (1).jpeg) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+ 
+.stock-text {
+    font-weight: bold;
+    color: #ffffff;
+}
+ 
+.stock-text-red{
+    font-weight:bold;
+    color:#ffffff;
+}
+ 
+.product-detail {
+	color:#ffffff;
+    font-weight: bold;
+    margin: 0 auto;
+}
+ 
+.blueimp-gallery>.prev, .blueimp-gallery>.next{ border:none;color:#ffffff; font-weight:bold;}
+ 
+.update-quantity-form {
+    width: 150px;
+    float: left;
+    margin: 0 10px 0 0;
+	color:#ffffff;
+}
+ 
+.cart-row {
+    border-bottom: thin solid #f1f1f1;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0 20px 0;
+	color:#ffffff;
+	font-weight:bold;
+}
+ 
+.product-link{
+    color:#ffffff;
+}
+ 
+.product-link:hover{
+	color:#ffffff;
+   font-weight:bold;
+    text-decoration:none;
+}
+ 
+.product-img-thumb {
+	
+    margin: 0 0 10px 0;
+    width: 100%;
+    cursor: pointer;
+}
