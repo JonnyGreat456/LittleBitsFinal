@@ -141,46 +141,46 @@ waiterprofile.db - database for waiter profile
 
 
 Customer:
-├─ config/ //folder that contains the database
-├─── database.php
-├─ dev/ //folder that contains the sql file for setting up the database
-├─── shop_cart_sessions_1.sql
-├─── readme.txt
-├─ images/ 
-├─ libs/ //folder that stores the custom css files
-├─── css/
-├────── bootstrap/ 
-├─── js/
-├────── jquery.js
-├─ objects/ //folder that contains the main php files for the products displayed
-├─── product_image.php 
-├─── product.php
-├─ uploads/ //folder contains all the images for the products
-├─── images/
-├─────bbqwings.jpg //Item image
-├─────buffalowings.jpg        //Item image
-├─────chickenpenne.jpg   //Item image
-├─────chocice.jpg                //Item image
-├─────cocacola.jpg                //Item image
-├─────coffe.jpg                  //Item image
-├─────frenchsoup.jpg        //Item image
-├─────greensalad.jpg        //Item image
-├─────hot-tea.jpg                  //Item image
-├─────icedtea.jpg            //Item image
-├─────lasagna.jpg                //Item image
-├─────lavacake.jpg                //Item image
-├─────maccheese.jpg        //Item image
-├─────mozzsticks.jpg        //Item image
-├─────nuggsandfries.jpg        //Item image
-├─────panpizza.jpg        //Item image
-├─────ravioli.jpg                //Item image
-├─────spinachDip.jpg        //Item image
-├─────sprite.jpg                //Item image
-├─────tomatosoup.jpg        //Item image
-├─────vanice.jpg                //Item image
-├─────water.jpg                //Item image
-├─Reservation
-├───reservationmain.html- initializes the array that contains the status of the tables
+config/ //folder that contains the database
+ database.php
+ dev/ //folder that contains the sql file for setting up the database
+shop_cart_sessions_1.sql
+readme.txt
+images/ 
+libs/ //folder that stores the custom css files
+css/
+ bootstrap/ 
+js/
+jquery.js
+objects/ //folder that contains the main php files for the products displayed
+ product_image.php 
+product.php
+uploads/ //folder contains all the images for the products
+images/
+bbqwings.jpg //Item image
+buffalowings.jpg        //Item image
+chickenpenne.jpg   //Item image
+chocice.jpg                //Item image
+cocacola.jpg                //Item image
+coffe.jpg                  //Item image
+frenchsoup.jpg        //Item image
+greensalad.jpg        //Item image
+hot-tea.jpg                  //Item image
+icedtea.jpg            //Item image
+lasagna.jpg                //Item image
+lavacake.jpg                //Item image
+maccheese.jpg        //Item image
+mozzsticks.jpg        //Item image
+nuggsandfries.jpg        //Item image
+panpizza.jpg        //Item image
+ravioli.jpg                //Item image
+spinachDip.jpg        //Item image
+sprite.jpg                //Item image
+tomatosoup.jpg        //Item image
+vanice.jpg                //Item image
+water.jpg                //Item image
+Reservation
+reservationmain.html- initializes the array that contains the status of the tables
 reservation.html- customer interface for reserving tables
 confused.html - tutorial for customers on how to reserve tables.
 reservationEmp.html - for employee to change the status of the table from busy to available
@@ -205,27 +205,26 @@ unavailable.png - top booth unavailable
 unavailable.png - bottom booth unavailable
 unavailable.png - employee interface unavailable table
 noSeat.png - transparent picture for when there are no tables
-├─ .htaccess        
-├─ add_to_cart.php        //file that adds items to the cart and updates it
-├─ cart.php                 // file that displays the cart
-├─ checkout.php        //files that displays the cart and payment option
-├─ layout_footer.php                //footer template for the php files
-├─ layout_header.php        //header template for the php file
-├─ navigation.php                // php file that enable going through different item pages
-├─ paging.php                // the pages 
-├─ place_order.php                // php file that sends items to check out
-├─ product.php                // the php file that displays each product
-├─ products.php                // the php file that updates and organizes the products
-├─ read_products_template.php        //Php file that reads the products from the database
-├─ remove_from_cart.php                //php file that removes item from database
-├─ update_quantity.php                // updates quantity of items on cart
-├─games.php                                //displays available gaming options
-├─piano.html                //one of the games
-├─uno.html                //one of the games
-├─thing.db                //sqlite3 database for the items ordered
-├─pexels-photo-326279.jpeg //the backround picture
-├─Tutorial.php                //the tutorial page
-
+.htaccess        
+add_to_cart.php        //file that adds items to the cart and updates it
+cart.php                 // file that displays the cart
+checkout.php        //files that displays the cart and payment option
+layout_footer.php                //footer template for the php files
+layout_header.php        //header template for the php file
+navigation.php                // php file that enable going through different item pages
+paging.php                // the pages 
+place_order.php                // php file that sends items to check out
+product.php                // the php file that displays each product
+products.php                // the php file that updates and organizes the products
+read_products_template.php        //Php file that reads the products from the database
+remove_from_cart.php                //php file that removes item from database
+update_quantity.php                // updates quantity of items on cart
+games.php                                //displays available gaming options
+piano.html                //one of the games
+uno.html                //one of the games
+thing.db                //sqlite3 database for the items ordered
+pexels-photo-326279.jpeg //the backround picture
+Tutorial.php                //the tutorial page
 
 Students.db
 
@@ -239,7 +238,7 @@ Customer:
 When a customer walks in, they first see the hostess table where they can make their reservation. 
 1. To view this interface: go to reservationmain.html. Click on the table you’d like to reserve and from there, it’ self explanatory. 
 They then do to their table where they can view the menu and place order then pay
-b) to view this interface → write here
+2. To run the Customer ording interface xaamp needs to be installed on the computer and the customer files placed in the htdocs folder inside the xaamp folder. To start please open a browser and enter http://localhost/php-shopping-cart-using-sessions-level-1/products.php then you will be greated with the customer interface where you can select items and place order.
 
 
 Employee:
