@@ -1,7 +1,4 @@
-﻿Guys i need you to write all your file names and what they do in here. We will remove the text that says “manager” , “Employee” and “Customer” but that’s so that everyone can write without it getting mixed up
-
-
-Manager:  
+Manager:
 To run this the user must make sure that their HTML files are in a templates folder called templates. 
 The python files and database files must be outside the templates folder but the python and the templates folder must all be in the same folder. 
 User must have python downloaded on laptop/desktop computer and added to path environment variable.  
@@ -231,13 +228,6 @@ noSeat.png - transparent picture for when there are no tables
 
 
 Students.db
-
-
-
-
-
-
-
 
 
 
