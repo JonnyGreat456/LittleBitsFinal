@@ -1,13 +1,4 @@
-Manager:
-To run this the user must make sure that their HTML files are in a templates folder called templates. 
-The python files and database files must be outside the templates folder but the python and the templates folder must all be in the same folder. 
-User must have python downloaded on laptop/desktop computer and added to path environment variable.  
-The user will also need flask, numpy, and SQLite downloaded on their system as well.
-When the user wants to run it, the user will need to go into terminal/command prompt and make sure that the user is in the folder where the python code is and making  sure that folder has a subfolder named templates which will contain the html files that will be run.
-The user must type into the command prompt/terminal window: python thing.py  and a url would come up such as http://localhost:8000 
-Go to that link and you will be directed to the application.
-
-
+Manger Files:
 addItemForm.html  - webpage used in adding an item to the inventory
 added.html - determines whether adding a new item to the menu was successful or not
 addtoMenu.html - used in adding an item to the menu                
@@ -47,12 +38,7 @@ inventory.db - database file of inventory items
 trafficmonitoring.db - database for amount of traffic in the restaurant
 transactionHistory.db - database of transactions of the restaurant
 
-
-
-
-
-
-Employee:     
+Employee Files:     
 addshifts.html - webpage for employee to add shift
 changeshifts.html - webpage for employee shift changes
 employeelogin.html - webpage for employee login
@@ -137,10 +123,7 @@ mainlogdemo2chef.pyc - chef login python file
 mainlogdemo2waiter.pyc - waiter login python file
 waiterprofile.db - database for waiter profile
 
-
-
-
-Customer:
+Customer Files:
 config/ //folder that contains the database
  database.php
  dev/ //folder that contains the sql file for setting up the database
@@ -178,7 +161,7 @@ spinachDip.jpg        //Item image
 sprite.jpg                //Item image
 tomatosoup.jpg        //Item image
 vanice.jpg                //Item image
-water.jpg                //Item image
+water.jpg           //Item image
 Reservation
 reservationmain.html- initializes the array that contains the status of the tables
 reservation.html- customer interface for reserving tables
@@ -233,13 +216,20 @@ Students.db
 
 
 How to run the code:
-Please include here how to run your software
+Manager:
+To run this the user must make sure that their HTML files are in a templates folder called templates. 
+The python files and database files must be outside the templates folder but the python and the templates folder must all be in the same folder. 
+User must have python downloaded on laptop/desktop computer and added to path environment variable.  
+The user will also need flask, numpy, and SQLite downloaded on their system as well.
+When the user wants to run it, the user will need to go into terminal/command prompt and make sure that the user is in the folder where the python code is and making  sure that folder has a subfolder named templates which will contain the html files that will be run.
+The user must type into the command prompt/terminal window: python thing.py  and a url would come up such as http://localhost:8000 
+Go to that link and you will be directed to the application.
+
 Customer: 
 When a customer walks in, they first see the hostess table where they can make their reservation. 
 1. To view this interface: go to reservationmain.html. Click on the table you’d like to reserve and from there, it’ self explanatory. 
 They then do to their table where they can view the menu and place order then pay
 2. To run the Customer ording interface xaamp needs to be installed on the computer and the customer files placed in the htdocs folder inside the xaamp folder. To start please open a browser and enter http://localhost/php-shopping-cart-using-sessions-level-1/products.php then you will be greated with the customer interface where you can select items and place order.
-
 
 Employee:
 #http://flask.pocoo.org/docs/0.12/testing/ 
