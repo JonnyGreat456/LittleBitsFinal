@@ -1,3 +1,4 @@
+For Mangers:
 To run this the user must make sure that their HTML files are in a templates folder called templates. 
 The python files and database files must be outside the templates folder but the python and the templates folder must all be in the same folder. 
 User must have python downloaded on laptop/desktop computer and added to path environment variable.  
