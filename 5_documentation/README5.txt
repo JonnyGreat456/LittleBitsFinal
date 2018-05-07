@@ -229,7 +229,7 @@ Customer:
 When a customer walks in, they first see the hostess table where they can make their reservation. 
 1. To view this interface: go to reservationmain.html. Click on the table you’d like to reserve and from there, it’ self explanatory. 
 They then do to their table where they can view the menu and place order then pay
-2. To run the Customer ording interface xaamp needs to be installed on the computer and the customer files placed in the htdocs folder inside the xaamp folder. To start please open a browser and enter http://localhost/php-shopping-cart-using-sessions-level-1/products.php then you will be greated with the customer interface where you can select items and place order.
+2. To run the Customer ording interface xaamp needs to be installed on the computer and the customer files placed in the htdocs folder inside the xaamp folder. To start please open a browser and enter http://localhost/"Filename" /products.php then you will be greated with the customer interface where you can select items and place order.
 
 Employee:
 #http://flask.pocoo.org/docs/0.12/testing/ 
